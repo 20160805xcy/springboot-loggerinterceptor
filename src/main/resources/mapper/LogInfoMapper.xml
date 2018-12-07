@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xcy.springbootloggerinterceptor.mapper.LogInfoMapper">
+  <resultMap id="BaseResultMap" type="com.xcy.springbootloggerinterceptor.model.LogInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="log_client_ip" jdbcType="VARCHAR" property="logClientIp" />
+    <result column="log_uri" jdbcType="VARCHAR" property="logUri" />
+    <result column="log_type" jdbcType="VARCHAR" property="logType" />
+    <result column="log_method" jdbcType="VARCHAR" property="logMethod" />
+    <result column="log_session_id" jdbcType="VARCHAR" property="logSessionId" />
+    <result column="log_time" jdbcType="TIMESTAMP" property="logTime" />
+    <result column="log_return_time" jdbcType="VARCHAR" property="logReturnTime" />
+    <result column="log_return_data" jdbcType="VARCHAR" property="logReturnData" />
+    <result column="log_http_status_code" jdbcType="VARCHAR" property="logHttpStatusCode" />
+    <result column="log_time_consuming" jdbcType="INTEGER" property="logTimeConsuming" />
+    <result column="log_param_data" jdbcType="LONGVARCHAR" property="logParamData" />
+  </resultMap>
+</mapper>
